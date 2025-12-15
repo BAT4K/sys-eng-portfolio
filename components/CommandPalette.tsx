@@ -137,7 +137,7 @@ export default function CommandPalette({ open, setOpen }: Props) {
                   </Command.Item>
 
                   <Command.Item 
-                    onSelect={() => runCommand(() => window.open('/resume.pdf', '_blank'))}
+                    onSelect={() => runCommand(() => window.open('/Hans_James_Resume.pdf', '_blank'))}
                     className="flex cursor-pointer items-center gap-3 rounded-md px-2 py-2 text-sm text-zinc-400 aria-selected:bg-zinc-900 aria-selected:text-emerald-400 transition-colors"
                   >
                     <FileText size={16} />

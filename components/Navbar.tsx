@@ -1,3 +1,4 @@
+// components/Navbar.tsx
 'use client';
 
 import Link from 'next/link';
@@ -10,7 +11,7 @@ import { useTerminal } from '@/context/TerminalContext';
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'Work', href: '/work' },
-  { name: 'Resume', href: '/resume.pdf', isExternal: true }, // Added Resume
+  { name: 'Resume', href: '/Hans_James_Resume.pdf', isExternal: true }, // Added Resume
   { name: 'About', href: '/about' },
 ];
 

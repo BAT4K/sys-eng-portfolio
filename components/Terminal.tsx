@@ -116,7 +116,7 @@ export default function Terminal() {
         if (currentDir === '~/projects') {
           outputLines = [
             // List your projects here!
-            { text: 'magma-engine  niokv  whack-a-mole-java  terminal-portfolio', type: 'output', color: 'text-emerald-400' }
+            { text: 'magma-engine  niokv  whack-a-mole-java  sys-eng-portfolio', type: 'output', color: 'text-emerald-400' }
           ];
         } else {
           // Default home directory listing
@@ -155,7 +155,7 @@ export default function Terminal() {
         }
         else if (arg === 'resume.pdf') {
           outputLines = [{ text: 'Opening resume...', type: 'output', color: 'text-zinc-400' }];
-          window.open('/resume.pdf', '_blank');
+          window.open('/Hans_James_Resume.pdf', '_blank');
         } else if (arg === 'contact.txt') {
           outputLines = [
             { text: 'Email: hj271@snu.edu.in', type: 'output' },
