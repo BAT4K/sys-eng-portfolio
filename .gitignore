@@ -23,7 +23,51 @@
 # misc
 .DS_Store
 *.pem
+Context:
 
+I need to improve the visibility of my resume on my portfolio site. I am using React and Tailwind CSS.
+
+Task:
+
+Please update my Navbar and Hero (landing page) components with the following changes:
+
+1. Navbar Component:
+
+
+
+Add a new navigation link labeled "Resume".
+
+Placement: Insert it strictly between the "Work" and "About" links.
+
+Functionality: It must link to my resume PDF (assume path is /resume.pdf for now) and open in a new tab (target="_blank" rel="noopener noreferrer").
+
+Styling: Match the existing text style of the other nav items (likely generic gray/white hover effects).
+
+2. Hero Component:
+
+
+
+Locate the main CTA area (where the "View Work" button is).
+
+Add a Secondary Button next to "View Work".
+
+Text: "Resume"
+
+Icon: Use HiDocumentText from react-icons/hi (or HeroIcons) placed to the left of the text.
+
+Style: Give it a "Ghost" or "Outline" style so it doesn't compete with the primary button.
+
+Suggested Tailwind classes: border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white bg-transparent px-6 py-2 rounded-full transition-all flex items-center gap-2.
+
+Functionality: Same as the navbar link (opens /resume.pdf in a new tab).
+
+Constraints:
+
+
+
+Ensure the layout in the Hero section handles the two buttons side-by-side gracefully (use flex gap-4).
+
+If I am using a map function to render nav links, update the data array instead of hardcoding the link.
 # debug
 npm-debug.log*
 yarn-debug.log*
