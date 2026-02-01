@@ -33,7 +33,7 @@ export default function About() {
           I focus on backend infrastructure, distributed systems, and high-frequency trading engines.
         </p>
 
-        {/* Highlights List (Now Clickable) */}
+        {/* Highlights List */}
         <div className="mt-4 flex flex-col gap-4">
           
           {/* 1. Snuphoria Link */}
