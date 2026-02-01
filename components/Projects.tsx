@@ -74,7 +74,19 @@ export default function Projects() {
   );
 }
 
-function ProjectCard({ project }: { project: any }) {
+interface Project {
+  id: string;
+  sysId: string;
+  title: string;
+  tagline: string;
+  stats: string;
+  tags: string[];
+  link: string;
+  className: string;
+  visual: React.ReactNode;
+}
+
+function ProjectCard({ project }: { project: Project }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}

@@ -15,6 +15,7 @@ export default function Hero() {
   const phrases = [
     'Building low-latency systems.',
     'Optimizing for nanoseconds.',
+    'Architecting performant web apps.',
     'Engineering distributed databases.',
   ];
 
