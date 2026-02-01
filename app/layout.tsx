@@ -4,8 +4,8 @@ import { Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import TerminalModal from '@/components/TerminalModal'; // Import the modal
-import { TerminalProvider } from '@/context/TerminalContext'; // Import the provider
+import TerminalModal from '@/components/TerminalModal'; 
+import { TerminalProvider } from '@/context/TerminalContext'; 
 
 const inter = Inter({ 
   subsets: ['latin'], 
