@@ -10,7 +10,7 @@ import clsx from 'clsx';
 const projects = [
   {
     id: 'magma',
-    sysId: 'SYS_01', // Added "System ID" for engineering vibe
+    sysId: 'SYS_01',
     title: 'Magma',
     tagline: 'Low-latency trading engine optimized for nanosecond precision.',
     stats: '130ns Latency', // Key metric
