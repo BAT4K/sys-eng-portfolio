@@ -93,7 +93,7 @@ export default function Hero() {
           </motion.button>
         </Link>
 
-        {/* Secondary Button: Resume (Added) */}
+        {/* Secondary Button: Resume */}
         <Link href="/Hans_James_Resume.pdf" target="_blank" rel="noopener noreferrer">
           <motion.button
             whileHover={{ scale: 1.05, backgroundColor: 'rgba(255,255,255,0.05)' }}
