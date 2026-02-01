@@ -1,3 +1,4 @@
+// components/Terminal.tsx
 'use client';
 
 import { useState, useEffect, useRef, ChangeEvent, KeyboardEvent, ReactNode } from 'react';
@@ -115,7 +116,7 @@ export default function Terminal() {
       case 'ls':
         if (currentDir === '~/projects') {
           outputLines = [
-            // List your projects here!
+            // List projects here
             { text: 'magma-engine  niokv  whack-a-mole-java  sys-eng-portfolio', type: 'output', color: 'text-emerald-400' }
           ];
         } else {
