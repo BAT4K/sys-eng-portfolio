@@ -2,7 +2,7 @@
 'use client';
 
 import { Command } from 'cmdk';
-import { useEffect, Dispatch, SetStateAction } from 'react'; // 1. Add imports
+import { useEffect, Dispatch, SetStateAction } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
@@ -18,7 +18,7 @@ import {
 
 interface Props {
   open: boolean;
-  setOpen: Dispatch<SetStateAction<boolean>>; // 2. Update type definition
+  setOpen: Dispatch<SetStateAction<boolean>>;
 }
 
 export default function CommandPalette({ open, setOpen }: Props) {
